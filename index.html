@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Counter App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="container">
+        <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+     <!-- 2. Create a SAVE button.
+     Set the id to "save-btn" and call the save() function when it's clicked -->
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <button id="clear_btn" onclick="location.reload()">CLEAR</button>
+    <!-- create P element and input Previous enteries to it 
+    set the id save-el to it-->
+    <p id="save-el">Previous entries:</p>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
